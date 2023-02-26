@@ -1,0 +1,6905 @@
+{
+	"info": {
+		"_postman_id": "fb3009f9-91b5-469b-b4d5-34f1d37a4042",
+		"name": "eBookLibrary",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/user",
+			"item": [
+				{
+					"name": "POST",
+					"item": [
+						{
+							"name": "try to create new user",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"login\": \"user1\",\r\n    \"password\": \"123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/user/register",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"user",
+										"register"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "try to create new user",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"login\": \"user1\",\r\n    \"password\": \"123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/user/register",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"user",
+												"register"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 11:34:17 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f02188884df2ac-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": 423,\n    \"new\": true\n}"
+								}
+							]
+						},
+						{
+							"name": "try to create new user by data of object which already exist",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"login\": \"user1\",\r\n    \"password\": \"123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/user/register",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"user",
+										"register"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "try to create new user by data of object which already exist",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"login\": \"user1\",\r\n    \"password\": \"123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/user/register",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"user",
+												"register"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 11:35:13 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f022e5285cf2ac-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": 423,\n    \"new\": false\n}"
+								}
+							]
+						},
+						{
+							"name": "try to log in with correct data",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"login\": \"user1\",\r\n    \"password\": \"123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/user/login",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"user",
+										"login"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "try to log in with correct data",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"login\": \"user1\",\r\n    \"password\": \"123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/user/login",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"user",
+												"login"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 12:09:24 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f054f4e9e9fc7f-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "423"
+								}
+							]
+						},
+						{
+							"name": "try to log in with uncorrect login",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"login\": \"user12345\",\r\n    \"password\": \"123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/user/login",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"user",
+										"login"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "try to log in with uncorrect login",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"login\": \"user12345\",\r\n    \"password\": \"123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/user/login",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"user",
+												"login"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 12:14:36 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f05c94bbdafc7f-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "-1"
+								}
+							]
+						},
+						{
+							"name": "try to log in with uncorrect password",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"login\": \"user1\",\r\n    \"password\": \"user1\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/user/login",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"user",
+										"login"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "try to log in with uncorrect password",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"login\": \"user1\",\r\n    \"password\": \"user1\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/user/login",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"user",
+												"login"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 12:16:49 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f05fd34daefc7f-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "-1"
+								}
+							]
+						},
+						{
+							"name": "try to log in with uncorrect login and password",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"login\": \"user12345\",\r\n    \"password\": \"user12345\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/user/login",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"user",
+										"login"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "try to log in with uncorrect login and password",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"login\": \"user12345\",\r\n    \"password\": \"user12345\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/user/login",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"user",
+												"login"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 12:17:48 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f06146cc1afc7f-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "-1"
+								}
+							]
+						},
+						{
+							"name": "try to log in with correct login but empty password",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"login\": \"user1\",\r\n    \"password\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/user/login",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"user",
+										"login"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "try to log in with correct login but empty password",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"login\": \"user1\",\r\n    \"password\": \"\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/user/login",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"user",
+												"login"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 12:21:46 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f067166953fc7f-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "-1"
+								}
+							]
+						},
+						{
+							"name": "try to log in with correct password but empty login",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"login\": \"\",\r\n    \"password\": \"123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/user/login",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"user",
+										"login"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "try to log in with correct password but empty login",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"login\": \"\",\r\n    \"password\": \"123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/user/login",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"user",
+												"login"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 12:23:25 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f0697e48a7fc7f-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "-1"
+								}
+							]
+						},
+						{
+							"name": "try to log in with empty login and password",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"login\": \"\",\r\n    \"password\": \"\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/user/login",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"user",
+										"login"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "try to log in with empty login and password",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"login\": \"\",\r\n    \"password\": \"\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/user/login",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"user",
+												"login"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 12:23:48 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f06a1218dcfc7f-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "-1"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "/titles",
+			"item": [
+				{
+					"name": "GET",
+					"item": [
+						{
+							"name": "try to get titles by id of existing user",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=423",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"titles",
+										""
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "423"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "try to get titles by id of existing user",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=423",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"titles",
+												""
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "423"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 13:09:33 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f0ad13a91c349a-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "[\n    {\n        \"id\": 435,\n        \"author\": \"Author\",\n        \"title\": \"Title\",\n        \"year\": 2023\n    }\n]"
+								}
+							]
+						},
+						{
+							"name": "try to get titles by not existing user id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=500",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"titles",
+										""
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "500"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "try to get titles by not existing user id",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=500",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"titles",
+												""
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "500"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 13:10:59 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f0af29abe8349a-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "[]"
+								}
+							]
+						},
+						{
+							"name": "try to get titles of user that does not have any",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=423",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"titles",
+										""
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "423"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "try to get titles of user that does not have any",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=423",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"titles",
+												""
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "423"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 13:15:47 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f0b631becd349a-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "[]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "POST",
+					"item": [
+						{
+							"name": "Try to add new title for existing user",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 423,\r\n    \"author\": \"Jan Kowalski\",\r\n    \"title\": \"My first book\",\r\n    \"year\": 2023\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"titles",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to add new title for existing user",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 423,\r\n    \"author\": \"Jan Kowalski\",\r\n    \"title\": \"My first book\",\r\n    \"year\": 2023\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"titles",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 13:23:41 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f0c1c4bc083500-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "436"
+								}
+							]
+						},
+						{
+							"name": "Try to add new title for not existing user",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 501,\r\n    \"author\": \"Jan Kowalski\",\r\n    \"title\": \"My first book\",\r\n    \"year\": 2023\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"titles",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to add new title for not existing user",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 501,\r\n    \"author\": \"Jan Kowalski\",\r\n    \"title\": \"My first book\",\r\n    \"year\": 2023\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"titles",
+												""
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 13:27:55 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f0c7f8faa23500-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-25T13:27:55.113+00:00\",\n    \"status\": 500,\n    \"error\": \"Internal Server Error\",\n    \"path\": \"/titles/\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Try to add new title for empty author",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 423,\r\n    \"author\": \"\",\r\n    \"title\": \"My first book\",\r\n    \"year\": 2023\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"titles",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to add new title for empty author",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 423,\r\n    \"author\": \"\",\r\n    \"title\": \"My first book\",\r\n    \"year\": 2023\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"titles",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 13:39:42 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f0d93e8fed3500-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "438"
+								}
+							]
+						},
+						{
+							"name": "Try to add new title for empty title",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 423,\r\n    \"author\": \"Jan Kowalski\",\r\n    \"title\": \"\",\r\n    \"year\": 2023\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"titles",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to add new title for empty title",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 423,\r\n    \"author\": \"Jan Kowalski\",\r\n    \"title\": \"\",\r\n    \"year\": 2023\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"titles",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 13:42:41 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f0dd98cc093500-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "440"
+								}
+							]
+						},
+						{
+							"name": "Try to add new title for incorrect types of data",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 423,\r\n    \"author\": 123,\r\n    \"title\": 123,\r\n    \"year\": \"year\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"titles",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to add new title for incorrect types of data",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 423,\r\n    \"author\": 123,\r\n    \"title\": 123,\r\n    \"year\": \"year\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"titles",
+												""
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 13:47:53 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f0e53c79ea3500-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-25T13:47:53.753+00:00\",\n    \"status\": 400,\n    \"error\": \"Bad Request\",\n    \"path\": \"/titles/\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Try to add new title with missing userId",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"author\": 123,\r\n    \"title\": 123,\r\n    \"year\": \"year\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"titles",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to add new title with missing userId",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"author\": 123,\r\n    \"title\": 123,\r\n    \"year\": \"year\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"titles",
+												""
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 10:16:42 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f7ed42fa9235b8-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-26T10:16:42.784+00:00\",\n    \"status\": 400,\n    \"error\": \"Bad Request\",\n    \"path\": \"/titles/\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "PUT",
+					"item": [
+						{
+							"name": "Try to edit title with correct data",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 423,\r\n    \"id\": 436,\r\n    \"author\": \"Kowalski Jan\",\r\n    \"title\": \"My second book\",\r\n    \"year\": 2022\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"titles",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to edit title with correct data",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 423,\r\n    \"id\": 436,\r\n    \"author\": \"Kowalski Jan\",\r\n    \"title\": \"My second book\",\r\n    \"year\": 2022\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"titles",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 14:01:55 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f0f9c7cede34d3-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": 436,\n    \"author\": \"Kowalski Jan\",\n    \"title\": \"My second book\",\n    \"year\": 2022\n}"
+								}
+							]
+						},
+						{
+							"name": "Try to edit title for not existing user",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 501,\r\n    \"id\": 436,\r\n    \"author\": \"Kowalski Jan\",\r\n    \"title\": \"My second book\",\r\n    \"year\": 2022\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"titles",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to edit title for not existing user",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 501,\r\n    \"id\": 436,\r\n    \"author\": \"Kowalski Jan\",\r\n    \"title\": \"My second book\",\r\n    \"year\": 2022\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"titles",
+												""
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 14:10:08 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f105d07e9c3bcf-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-25T14:10:08.192+00:00\",\n    \"status\": 500,\n    \"error\": \"Internal Server Error\",\n    \"path\": \"/titles/\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Try to edit title for not existing book id",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 423,\r\n    \"id\": 501,\r\n    \"author\": \"Kowalski Jan\",\r\n    \"title\": \"My second book\",\r\n    \"year\": 2022\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"titles",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to edit title for not existing book id",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 423,\r\n    \"id\": 501,\r\n    \"author\": \"Kowalski Jan\",\r\n    \"title\": \"My second book\",\r\n    \"year\": 2022\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"titles",
+												""
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 14:12:22 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f109160d993bcf-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-25T14:12:22.265+00:00\",\n    \"status\": 500,\n    \"error\": \"Internal Server Error\",\n    \"path\": \"/titles/\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Try to edit title for incorrect type of data",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 423,\r\n    \"id\": 436,\r\n    \"author\": 1234,\r\n    \"title\": 1234,\r\n    \"year\": \"year\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"titles",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to edit title for incorrect type of data",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 423,\r\n    \"id\": 436,\r\n    \"author\": 1234,\r\n    \"title\": 1234,\r\n    \"year\": \"year\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"titles",
+												""
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 14:16:30 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f10f234fa93bcf-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-25T14:16:30.044+00:00\",\n    \"status\": 400,\n    \"error\": \"Bad Request\",\n    \"path\": \"/titles/\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "DELETE",
+					"item": [
+						{
+							"name": "Try to delete title by correct data",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=423&id=436",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"titles",
+										""
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "423"
+										},
+										{
+											"key": "id",
+											"value": "436"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to delete title with correct data",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=423&id=436",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"titles",
+												""
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "423"
+												},
+												{
+													"key": "id",
+													"value": "436"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 12:19:46 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f8a1847a4d0054-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "true"
+								}
+							]
+						},
+						{
+							"name": "Try to delete title by incorrect userId",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=500&id=436",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"titles",
+										""
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "500"
+										},
+										{
+											"key": "id",
+											"value": "436"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to delete title by incorrect userId",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=500&id=436",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"titles",
+												""
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "500"
+												},
+												{
+													"key": "id",
+													"value": "436"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 14:37:52 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f12e73af4234aa-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "false"
+								}
+							]
+						},
+						{
+							"name": "Try to delete title by incorrect book id",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=423&id=500",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"titles",
+										""
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "423"
+										},
+										{
+											"key": "id",
+											"value": "500"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to delete title by incorrect book id",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=423&id=500",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"titles",
+												""
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "423"
+												},
+												{
+													"key": "id",
+													"value": "500"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 14:39:40 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f131132b9134aa-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "false"
+								}
+							]
+						},
+						{
+							"name": "Try to delete title when it has related copies",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=423&id=456",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"titles",
+										""
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "423"
+										},
+										{
+											"key": "id",
+											"value": "456"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to delete title when inside has copies",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/titles/?userId=423&id=456",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"titles",
+												""
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "423"
+												},
+												{
+													"key": "id",
+													"value": "456"
+												}
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 12:25:20 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f8a9ab69780054-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-26T12:25:20.092+00:00\",\n    \"status\": 500,\n    \"error\": \"Internal Server Error\",\n    \"path\": \"/titles/\"\n}"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "/items",
+			"item": [
+				{
+					"name": "GET",
+					"item": [
+						{
+							"name": "Try to get copies by correct data",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/?userId=423&titleId=436",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"items",
+										""
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "423"
+										},
+										{
+											"key": "titleId",
+											"value": "436"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to get copies by correct data",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/?userId=423&titleId=436",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"items",
+												""
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "423"
+												},
+												{
+													"key": "titleId",
+													"value": "436"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sat, 25 Feb 2023 18:34:00 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f28857afb23570-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "[\n    {\n        \"id\": 444,\n        \"purchaseDate\": \"2023-03-25\",\n        \"status\": \"AVAILABLE\"\n    }\n]"
+								}
+							]
+						},
+						{
+							"name": "Try to get copies by not existing user id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/?userId=500&titleId=436",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"items",
+										""
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "500"
+										},
+										{
+											"key": "titleId",
+											"value": "436"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to get copies by not existing userId",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/?userId=500&titleId=436",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"items",
+												""
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "500"
+												},
+												{
+													"key": "titleId",
+													"value": "436"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 09:45:09 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f7bf09a97735b8-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "[]"
+								}
+							]
+						},
+						{
+							"name": "Try to get copies by not existing titleId",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/?userId=423&titleId=500",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"items",
+										""
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "423"
+										},
+										{
+											"key": "titleId",
+											"value": "500"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to get copies by not existing titleId",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/?userId=423&titleId=500",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"items",
+												""
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "423"
+												},
+												{
+													"key": "titleId",
+													"value": "500"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 09:46:20 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f7c0c20fc235b8-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "[]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "POST",
+					"item": [
+						{
+							"name": "Try to add copy for existing user and title",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 423,\r\n    \"titleId\": 436,\r\n    \"purchaseDate\": \"2023-03-25\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"items",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to add copy for existing user and title",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 423,\r\n    \"titleId\": 436,\r\n    \"purchaseDate\": \"2023-03-25\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"items",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 10:01:27 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f7d6ebaf8635b8-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "449"
+								}
+							]
+						},
+						{
+							"name": "Try to add copy by not existing userId",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 500,\r\n    \"titleId\": 436,\r\n    \"purchaseDate\": \"2023-03-25\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"items",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to add copy by not existing userId",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 500,\r\n    \"titleId\": 436,\r\n    \"purchaseDate\": \"2023-03-25\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"items",
+												""
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 10:06:50 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f7deca6a7135b8-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-26T10:06:50.291+00:00\",\n    \"status\": 500,\n    \"error\": \"Internal Server Error\",\n    \"path\": \"/items/\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Try to add copy by not existing titleId",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 423,\r\n    \"titleId\": 500,\r\n    \"purchaseDate\": \"2023-03-25\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"items",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to add copy by not existing titleId",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 423,\r\n    \"titleId\": 500,\r\n    \"purchaseDate\": \"2023-03-25\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"items",
+												""
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 10:07:20 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f7df89f94435b8-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-26T10:07:20.793+00:00\",\n    \"status\": 500,\n    \"error\": \"Internal Server Error\",\n    \"path\": \"/items/\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Try to add copy by wrong date format",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 423,\r\n    \"titleId\": 436,\r\n    \"purchaseDate\": \"25-03-2023\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"items",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to add copy by wrong date format",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 423,\r\n    \"titleId\": 436,\r\n    \"purchaseDate\": \"25-03-2023\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"items",
+												""
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 10:08:50 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f7e1ba2f5135b8-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-26T10:08:50.332+00:00\",\n    \"status\": 400,\n    \"error\": \"Bad Request\",\n    \"path\": \"/items/\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Try to add copy with missing userId",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"titleId\": 436,\r\n    \"purchaseDate\": \"2023-03-25\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"items",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to add copy with missing userId",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"titleId\": 436,\r\n    \"purchaseDate\": \"2023-03-25\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"items",
+												""
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 10:12:42 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f7e766dcee35b8-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-26T10:12:42.829+00:00\",\n    \"status\": 500,\n    \"error\": \"Internal Server Error\",\n    \"path\": \"/items/\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "PUT",
+					"item": [
+						{
+							"name": "Try to edit copy with correct data",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 423,\r\n    \"id\": 449,\r\n    \"purchaseDate\": \"2023-02-26\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"items",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to edit copy with correct data",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 423,\r\n    \"id\": 449,\r\n    \"purchaseDate\": \"2023-02-26\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"items",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 10:23:46 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f7f798d8a435b8-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": 449,\n    \"purchaseDate\": \"2023-02-26\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Try to edit copy for not existing userId",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 500,\r\n    \"id\": 449,\r\n    \"purchaseDate\": \"2023-02-25\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"items",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to edit copy for not existing userId",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 500,\r\n    \"id\": 449,\r\n    \"purchaseDate\": \"2023-02-25\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"items",
+												""
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 10:28:24 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f7fe611b8435b8-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-26T10:28:23.986+00:00\",\n    \"status\": 500,\n    \"error\": \"Internal Server Error\",\n    \"path\": \"/items/\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Try to edit copy for not existing copy id",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 423,\r\n    \"id\": 500,\r\n    \"purchaseDate\": \"2023-02-25\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"items",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to edit copy for not existing copy id",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 423,\r\n    \"id\": 500,\r\n    \"purchaseDate\": \"2023-02-25\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"items",
+												""
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 10:29:32 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f8000cc84135b8-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-26T10:29:32.415+00:00\",\n    \"status\": 500,\n    \"error\": \"Internal Server Error\",\n    \"path\": \"/items/\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Try to edit copy for incorrect type of date",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 423,\r\n    \"id\": 449,\r\n    \"purchaseDate\": \"year\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"items",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to edit copy for incorrect type of date",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 423,\r\n    \"id\": 449,\r\n    \"purchaseDate\": \"year\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"items",
+												""
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 10:31:12 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f8027f4cc835b8-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-26T10:31:12.607+00:00\",\n    \"status\": 400,\n    \"error\": \"Bad Request\",\n    \"path\": \"/items/\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Try to edit copy with missing puchaseDate",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 500,\r\n    \"id\": 449\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"items",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to edit copy with missing puchaseDate",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 500,\r\n    \"id\": 449\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"items",
+												""
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 10:31:59 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f803a31b6735b8-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-26T10:31:59.295+00:00\",\n    \"status\": 500,\n    \"error\": \"Internal Server Error\",\n    \"path\": \"/items/\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "DELETE",
+					"item": [
+						{
+							"name": "Try to delete item by correct data",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/?userId=423&id=449",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"items",
+										""
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "423"
+										},
+										{
+											"key": "id",
+											"value": "449"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to delete item by correct data",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/?userId=423&id=449",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"items",
+												""
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "423"
+												},
+												{
+													"key": "id",
+													"value": "449"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 12:18:20 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f89f6b3ab60054-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "true"
+								}
+							]
+						},
+						{
+							"name": "Try to delete item when it has related rents",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/?userId=423&id=457",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"items",
+										""
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "423"
+										},
+										{
+											"key": "id",
+											"value": "457"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to delete item when it has related rents",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/?userId=423&id=457",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"items",
+												""
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "423"
+												},
+												{
+													"key": "id",
+													"value": "457"
+												}
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 12:28:00 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f8ad932a020054-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-26T12:28:00.101+00:00\",\n    \"status\": 500,\n    \"error\": \"Internal Server Error\",\n    \"path\": \"/items/\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Try to delete item by incorrect userId",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/?userId=500&id=449",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"items",
+										""
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "500"
+										},
+										{
+											"key": "id",
+											"value": "449"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to delete item by incorrect userId",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/?userId=500&id=449",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"items",
+												""
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "500"
+												},
+												{
+													"key": "id",
+													"value": "449"
+												}
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 10:35:35 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f808e85eec35b8-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-26T10:35:35.224+00:00\",\n    \"status\": 500,\n    \"error\": \"Internal Server Error\",\n    \"path\": \"/items/\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Try to delete item by incorrect copy id",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/?userId=423&id=500",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"items",
+										""
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "423"
+										},
+										{
+											"key": "id",
+											"value": "500"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to delete item by incorrect copy id",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/items/?userId=423&id=500",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"items",
+												""
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "423"
+												},
+												{
+													"key": "id",
+													"value": "500"
+												}
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 10:36:30 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f80a4389b335b8-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-26T10:36:30.766+00:00\",\n    \"status\": 500,\n    \"error\": \"Internal Server Error\",\n    \"path\": \"/items/\"\n}"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "/rents",
+			"item": [
+				{
+					"name": "GET",
+					"item": [
+						{
+							"name": "Try to get rents by correct data",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/?userId=423&itemId=449",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"rents",
+										""
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "423"
+										},
+										{
+											"key": "itemId",
+											"value": "449"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to get rents by correct data",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/?userId=423&itemId=449",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"rents",
+												""
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "423"
+												},
+												{
+													"key": "itemId",
+													"value": "449"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 10:59:05 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f82b55d974bf35-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "[\n    {\n        \"id\": 451,\n        \"customerName\": \"Jan Nowak\",\n        \"rentDate\": \"2023-02-26\",\n        \"expirationDate\": \"2023-03-05\"\n    }\n]"
+								}
+							]
+						},
+						{
+							"name": "Try to get rents by not existing userId",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/?userId=500&itemId=449",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"rents",
+										""
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "500"
+										},
+										{
+											"key": "itemId",
+											"value": "449"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to get rents by not existing userId",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/?userId=500&itemId=449",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"rents",
+												""
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "500"
+												},
+												{
+													"key": "itemId",
+													"value": "449"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 11:01:04 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f82e3fefd9bf35-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "[]"
+								}
+							]
+						},
+						{
+							"name": "Try to get rents by not existing itemId",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/?userId=423&itemId=500",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"rents",
+										""
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "423"
+										},
+										{
+											"key": "itemId",
+											"value": "500"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to get rents by not existing itemId",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/?userId=423&itemId=500",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"rents",
+												""
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "423"
+												},
+												{
+													"key": "itemId",
+													"value": "500"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 11:01:30 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f82ee21807bf35-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "[]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "POST",
+					"item": [
+						{
+							"name": "Try to add rent by correct data",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 423,\r\n    \"itemId\": 449,\r\n    \"customerName\": \"Jan Nowak\",\r\n    \"rentDate\": \"2023-02-26\"\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"rents",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to add rent by correct data",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 423,\r\n    \"itemId\": 449,\r\n    \"customerName\": \"Jan Nowak\",\r\n    \"rentDate\": \"2023-02-26\"\r\n    \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"rents",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 10:57:40 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f829433d7bbf35-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "451"
+								}
+							]
+						},
+						{
+							"name": "Try to add rent by not existing userId",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 500,\r\n    \"itemId\": 449,\r\n    \"customerName\": \"Jan Nowak\",\r\n    \"rentDate\": \"2023-02-26\"\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"rents",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to add rent by not existing userId",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 500,\r\n    \"itemId\": 449,\r\n    \"customerName\": \"Jan Nowak\",\r\n    \"rentDate\": \"2023-02-26\"\r\n    \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"rents",
+												""
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 11:19:02 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f8488ace8b504e-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-26T11:19:02.003+00:00\",\n    \"status\": 500,\n    \"error\": \"Internal Server Error\",\n    \"path\": \"/rents/\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Try to add rent by not existing itemId",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 423,\r\n    \"itemId\": 500,\r\n    \"customerName\": \"Jan Nowak\",\r\n    \"rentDate\": \"2023-02-26\"\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"rents",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to add rent by not existing itemId",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 423,\r\n    \"itemId\": 500,\r\n    \"customerName\": \"Jan Nowak\",\r\n    \"rentDate\": \"2023-02-26\"\r\n    \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"rents",
+												""
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 11:19:53 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f849d09e44504e-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-26T11:19:53.813+00:00\",\n    \"status\": 500,\n    \"error\": \"Internal Server Error\",\n    \"path\": \"/rents/\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Try to add rent by wrong date format",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 423,\r\n    \"itemId\": 449,\r\n    \"customerName\": \"Jan Nowak\",\r\n    \"rentDate\": \"26-02-2023\"   \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"rents",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to add rent by wrong date format",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 423,\r\n    \"itemId\": 449,\r\n    \"customerName\": \"Jan Nowak\",\r\n    \"rentDate\": \"26-02-2023\"   \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"rents",
+												""
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 11:22:52 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f84e2fde0e504e-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-26T11:22:52.844+00:00\",\n    \"status\": 400,\n    \"error\": \"Bad Request\",\n    \"path\": \"/rents/\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Try to add rent by missing customerName",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 423,\r\n    \"itemId\": 449,\r\n    \"rentDate\": \"2023-02-26\"\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"rents",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to add rent by missing customerName",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 423,\r\n    \"itemId\": 449,\r\n    \"rentDate\": \"2023-02-26\"\r\n    \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"rents",
+												""
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 11:23:51 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f84f9adaf3504e-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-26T11:23:51.085+00:00\",\n    \"status\": 500,\n    \"error\": \"Internal Server Error\",\n    \"path\": \"/rents/\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "PUT",
+					"item": [
+						{
+							"name": "Try to edit rent with correct data",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 423,\r\n    \"id\": 451,\r\n    \"customerName\": \"Jan Nowak\",\r\n    \"rentDate\": \"2023-02-26\",\r\n    \"expirationDate\": \"2023-03-26\"   \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"rents",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to edit rent with correct data",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 423,\r\n    \"id\": 451,\r\n    \"customerName\": \"Jan Nowak\",\r\n    \"rentDate\": \"2023-02-26\",\r\n    \"expirationDate\": \"2023-03-26\"   \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"rents",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 11:35:43 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f861025a58bfb7-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": 451,\n    \"customerName\": \"Jan Nowak\",\n    \"rentDate\": \"2023-02-26\",\n    \"expirationDate\": \"2023-03-26\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Try to edit rent for not existing userId",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 500,\r\n    \"id\": 451,\r\n    \"customerName\": \"Jan Nowak\",\r\n    \"rentDate\": \"2023-02-26\",\r\n    \"expirationDate\": \"2023-03-26\"   \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"rents",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to edit rent for not existing userId",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 500,\r\n    \"id\": 451,\r\n    \"customerName\": \"Jan Nowak\",\r\n    \"rentDate\": \"2023-02-26\",\r\n    \"expirationDate\": \"2023-03-26\"   \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"rents",
+												""
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 12:01:39 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f886fda9a70054-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-26T12:01:39.598+00:00\",\n    \"status\": 500,\n    \"error\": \"Internal Server Error\",\n    \"path\": \"/rents/\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Try to edit rent for not existing rent id",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 423,\r\n    \"id\": 500,\r\n    \"customerName\": \"Jan Nowak\",\r\n    \"rentDate\": \"2023-02-26\",\r\n    \"expirationDate\": \"2023-03-26\"   \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"rents",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to edit rent for not existing rent id",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 423,\r\n    \"id\": 500,\r\n    \"customerName\": \"Jan Nowak\",\r\n    \"rentDate\": \"2023-02-26\",\r\n    \"expirationDate\": \"2023-03-26\"   \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"rents",
+												""
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 12:03:18 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f88964fbe80054-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-26T12:03:18.090+00:00\",\n    \"status\": 500,\n    \"error\": \"Internal Server Error\",\n    \"path\": \"/rents/\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Try to edit rent for incorrect types of date",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 423,\r\n    \"id\": 451,\r\n    \"customerName\": \"Jan Nowak\",\r\n    \"rentDate\": \"26-02-2023\",\r\n    \"expirationDate\": \"2023.03.01\"   \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"rents",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to edit rent for incorrect types of date",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 423,\r\n    \"id\": 451,\r\n    \"customerName\": \"Jan Nowak\",\r\n    \"rentDate\": \"26-02-2023\",\r\n    \"expirationDate\": \"2023.03.01\"   \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"rents",
+												""
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 12:11:29 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f89564683b0054-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-26T12:11:29.417+00:00\",\n    \"status\": 400,\n    \"error\": \"Bad Request\",\n    \"path\": \"/rents/\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Try to edit rent with missing rentDate",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": 500,\r\n    \"id\": 451,\r\n    \"customerName\": \"Jan Nowak\",\r\n    \"expirationDate\": \"2023-03-26\"   \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"rents",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to edit rent with missing rentDate",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"userId\": 500,\r\n    \"id\": 451,\r\n    \"customerName\": \"Jan Nowak\",\r\n    \"expirationDate\": \"2023-03-26\"   \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"rents",
+												""
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 12:12:48 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f8975329e30054-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-26T12:12:48.635+00:00\",\n    \"status\": 500,\n    \"error\": \"Internal Server Error\",\n    \"path\": \"/rents/\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "DELETE",
+					"item": [
+						{
+							"name": "Try to delete rent by correct data",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/?userId=423&id=451",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"rents",
+										""
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "423"
+										},
+										{
+											"key": "id",
+											"value": "451"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to delete rent by correct data",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/?userId=423&id=451",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"rents",
+												""
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "423"
+												},
+												{
+													"key": "id",
+													"value": "451"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 12:18:05 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f89f10cad80054-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "true"
+								}
+							]
+						},
+						{
+							"name": "Try to delete rent by incorrect userId",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/?userId=500&id=451",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"rents",
+										""
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "500"
+										},
+										{
+											"key": "id",
+											"value": "451"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to delete rent by incorrect userId",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/?userId=500&id=451",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"rents",
+												""
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "500"
+												},
+												{
+													"key": "id",
+													"value": "451"
+												}
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 12:15:28 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f89b3cae050054-WAW"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"timestamp\": \"2023-02-26T12:15:28.871+00:00\",\n    \"status\": 500,\n    \"error\": \"Internal Server Error\",\n    \"path\": \"/rents/\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Try to delete rent by incorrect rent id",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/?userId=423&id=500",
+									"protocol": "https",
+									"host": [
+										"ta-ebookrental-prod-kodilla-xmhvai",
+										"mo1",
+										"mogenius",
+										"io"
+									],
+									"path": [
+										"rents",
+										""
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "423"
+										},
+										{
+											"key": "id",
+											"value": "500"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Try to delete rent by incorrect rent id",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "https://ta-ebookrental-prod-kodilla-xmhvai.mo1.mogenius.io/rents/?userId=423&id=500",
+											"protocol": "https",
+											"host": [
+												"ta-ebookrental-prod-kodilla-xmhvai",
+												"mo1",
+												"mogenius",
+												"io"
+											],
+											"path": [
+												"rents",
+												""
+											],
+											"query": [
+												{
+													"key": "userId",
+													"value": "423"
+												},
+												{
+													"key": "id",
+													"value": "500"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 26 Feb 2023 12:16:13 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Transfer-Encoding",
+											"value": "chunked"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15724800; includeSubDomains"
+										},
+										{
+											"key": "CF-Cache-Status",
+											"value": "DYNAMIC"
+										},
+										{
+											"key": "Server",
+											"value": "cloudflare"
+										},
+										{
+											"key": "CF-RAY",
+											"value": "79f89c53b8910054-WAW"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "gzip"
+										}
+									],
+									"cookie": [],
+									"body": "false"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
